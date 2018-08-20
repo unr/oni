@@ -1,4 +1,13 @@
+activate = (oni) => {
+	// Put your customizations here!
+	console.log(oni);
+
+	console.log(oni.menu);
+}
+
 module.exports = {
+	activate,
+
 	// add in my neovim tweaks
 	'oni.loadInitVim': '~/.config/oni/init.vim',
 
@@ -21,6 +30,12 @@ module.exports = {
 
 	// make it feel like home
 	'ui.colorscheme': 'hybrid',
+	'ui.fontSize': '12px',
+	'ui.fontFamily': 'Hack',
 	'editor.fontSize': '14px',
 	'editor.fontFamily': 'Hack',
+	'statusbar.fontSize': '12px',
+
+	// i am a gosh darn expert
+	'learning.enabled': false,
 }
