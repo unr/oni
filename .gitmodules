@@ -1,3 +1,9 @@
 [submodule "plugins/vim-hybrid"]
 	path = plugins/vim-hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
+[submodule "plugins/vim-polyglot"]
+	path = plugins/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "plugins/vim-repeat"]
+	path = plugins/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
