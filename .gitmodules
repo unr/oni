@@ -1,0 +1,3 @@
+[submodule "plugins/vim-hybrid"]
+	path = plugins/vim-hybrid
+	url = https://github.com/w0ng/vim-hybrid.git
