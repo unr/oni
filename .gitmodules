@@ -7,3 +7,9 @@
 [submodule "plugins/vim-repeat"]
 	path = plugins/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "plugins/fzf.vim"]
+	path = plugins/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "plugins/fzf"]
+	path = plugins/fzf
+	url = https://github.com/junegunn/fzf.git

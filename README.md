@@ -2,10 +2,20 @@
 
 Keeping track of my customization to Oni.
 
+## Install my configs
+
+```
+cd ~/.config
+g clone --recurse-submodules git@github.com:unr/oni.git
+plugins/fzf/install
+```
+
 
 ## Plugin List
 
-> I need to find a smart way to install these via git config... `npm i` perhaps?
+> Should hopefully all be installed with a git submodule. ;)
+> or... be a default from oni maybe?
+
 
 - [fzf](https://github.com/junegunn/fzf)
 - [fzf.vim](https://github.com/junegunn/fzf.vim)

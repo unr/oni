@@ -27,7 +27,6 @@ module.exports = {
 	'language.vue.languageServer.arguments': ['--stdio'],
 	'language.vue.languageServer.configuration': {},
 
-
 	// make it feel like home
 	'ui.colorscheme': 'hybrid',
 	'ui.fontSize': '12px',
@@ -38,4 +37,12 @@ module.exports = {
 
 	// i am a gosh darn expert
 	'learning.enabled': false,
+
+	// I use vim. I like the vim bar, not this top bar shenanigans.
+	// also, if I'm using my own fzf, and not quickopen, hard pass
+	'commandline.mode': false,
+
+	// I really like this sidebar, but its not quite there for me yet. Hiding by default... but leaving on this time
+	// ctrl-w-h to reveal?
+	'sidebar.default.open': false,
 }

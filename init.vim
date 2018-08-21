@@ -27,13 +27,13 @@ nmap <leader>w :w<Cr>
 nmap <leader><Cr> :nohl<Cr>
 
 " use FZF to find files
-" nmap <leader>f :FZF<Cr>
+nmap <leader>f :FZF<Cr>
 
 " use FZF to find in folder IN file with AG
-" nmap <leader>a :Ag!<Cr>
+nmap <leader>a :Ag!<Cr>
 
 " use FZF to find Line in all loaded buffers
-" nmap <leader>s :Lines!<Cr>
+nmap <leader>s :Lines!<Cr>
 
 " @@ Filetype specific tweaks
 " Blade files set as blade type
