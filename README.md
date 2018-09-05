@@ -16,7 +16,6 @@ plugins/fzf/install
 > Should hopefully all be installed with a git submodule. ;)
 > or... be a default from oni maybe?
 
-
 - [fzf](https://github.com/junegunn/fzf)
 - [fzf.vim](https://github.com/junegunn/fzf.vim)
 - [vim-hybrid](https://github.com/w0ng/vim-hybrid) (combine with [Hack](https://sourcefoundry.org/hack/)!)
@@ -25,3 +24,10 @@ plugins/fzf/install
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
 - [vim-githubinator-master](https://github.com/prakashdanish/vim-githubinator) (never worked for me? im bad)
+
+
+## TODO
+
+> Things I wish I'd do one day.
+
+- [vim-which-key](https://github.com/liuchengxu/vim-which-key)

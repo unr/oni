@@ -8,6 +8,9 @@ activate = (oni) => {
 module.exports = {
 	activate,
 
+	// remove annoying default file
+	'oni.useDefaultConfig': false,
+
 	// add in my neovim tweaks
 	'oni.loadInitVim': '~/.config/oni/init.vim',
 

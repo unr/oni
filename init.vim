@@ -1,6 +1,34 @@
 " Basic leader (using space, cuz spaceVim changed me)
 let mapleader = "\<space>"
 
+"""""""""""""""""""""""""""
+" Oni Basic Config
+" https://github.com/onivim/oni/blob/master/vim/default/bundle/oni-vim-defaults/plugin/init.vim
+"""""""""""""""""""""""""""
+set number
+set noswapfile
+set smartcase
+
+set splitright
+set splitbelow
+
+" Turn off statusbar, because it is externalized
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
+
+" Enable GUI mouse behavior
+set mouse=a
+
+
+" Use ESC to exit insert mode in :term
+tnoremap <Esc> <C-\><C-n>
+
+""""""""""""""""""""""""""""
+" Unr's stuff
+""""""""""""""""""""""""""""
+
 " basics of text formatting and whitespace
 set tabstop=4
 set shiftwidth=4
