@@ -13,3 +13,9 @@
 [submodule "plugins/fzf"]
 	path = plugins/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "plugins/vim-surround"]
+	path = plugins/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "plugins/vim-unimpaired"]
+	path = plugins/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
