@@ -48,4 +48,7 @@ module.exports = {
 	// I really like this sidebar, but its not quite there for me yet. Hiding by default... but leaving on this time
 	// ctrl-w-h to reveal?
 	'sidebar.default.open': false,
+
+	// https://github.com/onivim/oni/issues/2396#issuecomment-426767185
+	'debug.neovimPath': '/usr/local/Cellar/neovim/0.3.1/bin/nvim',
 }
