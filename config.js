@@ -1,8 +1,8 @@
-module.exports = {
-	// remove annoying default file
-	// which can be found here https://github.com/onivim/oni/blob/master/browser/src/Services/Configuration/DefaultConfiguration.ts
-	'oni.useDefaultConfig': false,
+// originally, I had completely custom configs.
+// Instead, trying to rely on the default configuration
+// which can be found here https://github.com/onivim/oni/blob/master/browser/src/Services/Configuration/DefaultConfiguration.ts
 
+module.exports = {
 	// current project, please!
 	'browser.defaultUrl': 'https://www.rivalry.dev',
 
