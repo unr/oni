@@ -22,6 +22,8 @@ plugins/fzf/install
 - [vim-repeat](https://github.com/tpope/vim-repeat)
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
+- [targets.vim](https://github.com/wellle/targets.vim)
+- [vim-commentary](https://github.com/tpope/vim-commentary)
 
 
 ## TODO

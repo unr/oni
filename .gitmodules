@@ -19,3 +19,9 @@
 [submodule "plugins/vim-unimpaired"]
 	path = plugins/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "plugins/targets.vim"]
+	path = plugins/targets.vim
+	url = https://github.com/wellle/targets.vim.git
+[submodule "plugins/vim-commentary"]
+	path = plugins/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
