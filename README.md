@@ -26,6 +26,13 @@ plugins/fzf/install
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 
 
+## Globally Required
+
+**Vue Language Server** [NPM Link](https://www.npmjs.com/package/vue-language-server)
+`npm i -g vue-language-server`
+> required for vue lang hinting
+
+
 ## TODO
 
 > Things I wish I'd do one day.

@@ -1,34 +1,18 @@
-activate = (oni) => {
-	// Put your customizations here!
-	console.log(oni);
-
-	console.log(oni.menu);
-}
-
 module.exports = {
-	activate,
-
 	// remove annoying default file
+	// which can be found here https://github.com/onivim/oni/blob/master/browser/src/Services/Configuration/DefaultConfiguration.ts
 	'oni.useDefaultConfig': false,
+
+	// current project, please!
+	'browser.defaultUrl': 'https://www.rivalry.dev',
 
 	// add in my neovim tweaks
 	'oni.loadInitVim': '~/.config/oni/init.vim',
 
-	// Set up excluded files from fuzzyfinder
-	'oni.exclude': ['**/node_modules/**'],
-
-	// default folders/projects to load on init
-	'oni.bookmarks': [
-		'~/Development/rivalry',
-		'~/Development/esport-team-logos',
-		'~/Development/playground/',
-	],
-
-
 	// vue is better than react don't @ me
-	'language.vue.languageServer.command':'vls',
-	'language.vue.languageServer.arguments': ['--stdio'],
-	'language.vue.languageServer.configuration': {},
+	// I wonder if this works with defaultConfig now?
+	'language.vue.languageServer.command':'/Users/unr/.local/lib/vls',
+	'language.vue.autoClosingPairs.enabled': true,
 
 	// make it feel like home
 	'ui.colorscheme': 'hybrid',
@@ -37,6 +21,12 @@ module.exports = {
 	'editor.fontSize': '14px',
 	'editor.fontFamily': 'Hack',
 	'statusbar.fontSize': '12px',
+
+	// code crosshairs, yes pls
+	'editor.cursorLine': true,
+	'editor.cursorLineOpacity': 0.2,
+	'editor.cursorColumn': true,
+	'editor.cursorColumnOpacity': 0.2,
 
 	// i am a gosh darn expert
 	'learning.enabled': false,
