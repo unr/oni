@@ -1,3 +1,5 @@
+" init.vim
+
 " Basic leader (using space, cuz spaceVim changed me)
 let mapleader = "\<space>"
 
@@ -5,6 +7,9 @@ let mapleader = "\<space>"
 " Oni Basic Config
 " https://github.com/onivim/oni/blob/master/vim/default/bundle/oni-vim-defaults/plugin/init.vim
 """""""""""""""""""""""""""
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
 set number
 set noswapfile
 set smartcase

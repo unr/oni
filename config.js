@@ -1,8 +1,11 @@
-// originally, I had completely custom configs.
-// Instead, trying to rely on the default configuration
-// which can be found here https://github.com/onivim/oni/blob/master/browser/src/Services/Configuration/DefaultConfiguration.ts
+// These are the oni configs, can be overwritten here
+// https://github.com/onivim/oni/blob/master/browser/src/Services/Configuration/DefaultConfiguration.ts
 
 module.exports = {
+	// remove annoying default file
+	// https://github.com/onivim/oni/wiki/How-To:-Minimal-Oni-Configuration
+	'oni.useDefaultConfig': false,
+
 	// current project, please!
 	'browser.defaultUrl': 'https://www.rivalry.dev',
 
@@ -13,6 +16,9 @@ module.exports = {
 	// I wonder if this works with defaultConfig now?
 	'language.vue.languageServer.command':'/Users/unr/.local/lib/vls',
 	'language.vue.autoClosingPairs.enabled': true,
+
+	// I don't like prettier, hide the ui please
+	'oni.plugins.prettier': { enabled: false },
 
 	// make it feel like home
 	'ui.colorscheme': 'hybrid',
